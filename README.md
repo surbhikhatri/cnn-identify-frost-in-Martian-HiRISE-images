@@ -26,7 +26,7 @@ nary). For the purpose of the final project, individual tiles shall serve as the
 data points which need to be classified using binary classification.
 
 **Problem Statement**: 
-Train a three-layer CNN followed by a dense layer on the data. Choose the
+1. Train a three-layer CNN followed by a dense layer on the data. Choose the
 size of the kernels and depth of the layers and the number of neurons in
 the dense layer (MLP) on your own. Use ReLU’s in all of the layers. Use
 the softmax function, batch normalization 3 and a dropout rate of 30%, L2
@@ -34,3 +34,12 @@ regularization, as well as ADAM optimizer. Use cross entropy loss. Train
 for at least 20 epochs and perform early stopping using the validation set.
 Keep the network parameters that have the lowest validation error. Plot the
 training and validation errors vs. epochs.
+
+
+2. Transfer Learning:
+   1. EfficientNetB0
+   2. ResNet50
+   3. VGG16
+
+
+3. Compare the results of all the four classifiers.
